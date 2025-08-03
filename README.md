@@ -33,6 +33,10 @@ or directly execute the Python file in the terminal:
 python experiments/AirCade/train.py --device cuda:1 --num 1
 ```
 
+## 📄 Citation
+
+If you find this project helpful, please cite us:
+
 ```bibtex
 @article{ma2025spatiotemporal,
   title={Spatiotemporal Causal Decoupling Model for Air Quality Forecasting},
