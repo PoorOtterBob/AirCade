@@ -32,3 +32,12 @@ or directly execute the Python file in the terminal:
 ```
 python experiments/AirCade/train.py --device cuda:1 --num 1
 ```
+
+```bibtex
+@article{ma2025spatiotemporal,
+  title={Spatiotemporal Causal Decoupling Model for Air Quality Forecasting},
+  author={Ma, Jiaming and Wang, Guanjun and Huang, Sheng and Yang, Kuo and Wang, Binwu and Wang, Pengkun and Wang, Yang},
+  journal={arXiv preprint arXiv:2505.20119},
+  year={2025}
+}
+```
