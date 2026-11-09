@@ -1,0 +1,22 @@
+[project]
+name = "aircade"
+version = "0.1.0"
+description = "Official code of AirCade (ICASSP 2025)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "numpy",
+    "scipy",
+    "tqdm",
+    "pyyaml",
+    "torch-geometric",
+    "geopy",
+    "metpy",
+    "bresenham",
+    "arrow",
+]
+
+[tool.uv]
+package = false

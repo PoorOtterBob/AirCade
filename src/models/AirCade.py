@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 from src.base.model import BaseModel
-import sys
 ###AirCade###
 class AirCade(BaseModel):
 

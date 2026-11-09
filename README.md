@@ -51,6 +51,15 @@ or directly execute the Python file in the terminal:
 python experiments/AirCade/train.py --device cuda:1 --num 1
 ```
 
+## ⚙️ Installation (uv)
+
+Dependencies are declared in [`pyproject.toml`](pyproject.toml) and managed with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv sync                      # create .venv and install dependencies
+uv run python experiments/AirCade/train.py --device cuda:0 --num 1
+```
+
 ## 📄 Citation
 
 If you find this repository useful, please cite our paper:
